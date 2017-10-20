@@ -10,7 +10,7 @@ _A simple application that takes user input word and string to check how many ti
 
 1. _Can output number of times the word appears in the string._
 
-  * _Input 1. "Law" 2. "There is no law except the law that there is no law." Output = 2_
+  * _Input 1. "Law" 2. "There is no law except the law that there is no law." Output = 3_
   * _It will test for count, make sure it isn't case sensitive, and check if it words with punctuation on the end_
 
 
