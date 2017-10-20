@@ -1,13 +1,16 @@
 @{
   Layout = "_Layout";
 }
-
-<form action="/count" method="post">
-  <label for="searchWord">Word to search for:</label>
-  <input name="searchWord" class="form-control" id="searchWord">
-  <br>
-  <label for="sentence">Sentence to search:</label>
-  <input name="sentence" class="form-control" id="sentence">
-  <br>
-  <button type="submit" class="btn">Submit</button>
-</form>
+<h1>Word Counter!</h1>
+<div id="form">
+  <h3>Enter a word</h3>
+  <form action="/count" method="post">
+    <label for="searchWord">Word to search for:</label>
+    <input name="searchWord" class="form-control" type="text">
+    <h3>Enter a sentence</h3>
+    <label for="sentence">Sentence to search:</label>
+    <input name="sentence" class="form-control" type="text">
+    <br>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
