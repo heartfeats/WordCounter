@@ -1,8 +1,17 @@
-#form {
+.form {
     text-align: center;
 }
 
-h1,h3 {
+h1 {
     text-align: center;
     color: rgb(111, 235, 240);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(30, 230, 47);
+}
+
+#homeButton {
+    margin-left:46.75%;
 }
