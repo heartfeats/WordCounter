@@ -8,7 +8,7 @@ namespace WordCounter.Tests {
     [TestClass]
     public class WordCounterTests {
         [TestMethod]
-        public void appearsTwice () {
+        public void appearsThrice () {
             WordCount count = new WordCount ("Law", "There is no law except the law that there is no law.");
             int correctCount = 3;
             int returnCount = count.GetCount ();
